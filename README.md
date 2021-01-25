@@ -13,3 +13,4 @@ The translation isn't analogue, so through SPI-Connection (4 cables + GND/V+) th
 The Arduino-Code here is really simple, (see file "Adafruit_MAX31865_PT100-P1000-RTD-Sensor.ino"), using the Adafruit-Library:
 https://github.com/adafruit/Adafruit_MAX31865 (download).
 
+To-Do: Converting the Serial-Readings (measured values in °C) to the output them via I2C on the proposed OLED.
