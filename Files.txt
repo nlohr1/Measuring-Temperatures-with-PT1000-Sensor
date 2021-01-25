@@ -1,0 +1,17 @@
+Files:
+------
+
+MAX31865_Layout_with_OLED.sch ................................. Eagle schematic-file
+MAX31865_Layout_with_OLED.brd ................................. Eagle board-layout file
+MAX31865_Layout_with_OLED.png ................................. View Eagle-files in .png-Format
+MAX31865_Layout_with_OLED_BOM.htm ............................. BOM. Bill of Materials for the board
+MAX31865_Layout_with_OLED.xln ................................. Excellon-file to drill holes before Toner-Direct
+MAX31865_Layout_with_OLED.nc  ................................. .gcode-file to provide to the CNC-drill-machine :-)
+MAX31865_Layout_with_OLED_TonerDirect.pdf ..................... Print-out-file for a Toner-Transfer Paper (DIN-A4)
+
+Adafruit_MAX31865_PT100-P1000-RTD-Converter_datasheet.pdf ..... Datasheet of the Sensor-Converter-IC
+PT1000-2B_750gC-Sensor_datasheet.pdf .......................... Datasheet of the used PT1000-Sensor
+
+Subdirectory:
+-------------
+Adafruit_MAX31865_PT100-P1000-RTD-Sensor.ino
