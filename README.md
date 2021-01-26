@@ -25,4 +25,4 @@ Downloaded "FreeSansBold.ttf", modified with the (free) App "FontForge" using th
 44 to 67 from ASCII-Table) to minify RAM-consumption in the ATMega328.
 I compiled this resulted .ttf-font with "fontconvert.exe" to a usable Bitmap-font, named "FreeSnBld12pt7b.h" to use for the OLED.
 If you like it, feel free to use it without restrictions besides the licensing of the original font ("FreeSansBold.ttf"), which is
-(IMHO) a nicer Sans-Serif font as "Arial", "Verdana" "Tahoma" or "Helvetica"... ;-)
+(IMHO) a nicer Sans-Serif font as "Arial", "Verdana" "Tahoma" or "Helvetica"... at least nicer on the used small OLED.
