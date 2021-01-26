@@ -7,11 +7,12 @@ MAX31865_Layout_with_OLED_BOM.htm ............................. BOM. Bill of Mat
 MAX31865_Layout_with_OLED.xln ................................. Excellon-file to drill holes before Toner-Direct
 MAX31865_Layout_with_OLED.nc  ................................. .gcode-file to provide to the CNC-drill-machine :-)
 MAX31865_Layout_with_OLED_TonerDirect.pdf ..................... Print-out-file for a Toner-Transfer Paper (DIN-A4)
-MAX31865_Layout_with_OLED_Breadboard-Foto.png ................. Modules Wired on Breadboard (w/o OLED)
+MAX31865_with_Breadboard_Foto.png ............................. MAX31865-Module Wired with Arduino on Breadboard (w/o OLED)
+MAX31865_with_Breadboard_&_OLED_Foto.png ......................  " " on Breadboard Wired with Arduino and OLED
 
 Adafruit_MAX31865_PT100-P1000-RTD-Converter_datasheet.pdf ..... Datasheet of the Sensor-Converter-IC
 PT1000-2B_750gC-Sensor_datasheet.pdf .......................... Datasheet of the used PT1000-Sensor
 
 Subdirectory:
 -------------
-Adafruit_MAX31865_PT100-P1000-RTD-Sensor.ino .................. Arduino-file (for now without OLED)
+Adafruit_MAX31865_PT100-P1000-RTD-Sensor.ino .................. Arduino-Sketch file
