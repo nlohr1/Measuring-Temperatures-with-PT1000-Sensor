@@ -1,5 +1,5 @@
-# Measuring Temperatures with PT1000-Sensor
-High accurate Temperature-measures with Adafruits MAX31865 Module and a *small* PT1000-Sensor,
+# Measuring Temperatures with PT1000-Sensor:
+High accurate Temperature-measures (down to ±0.1°C) with Adafruits MAX31865 Module and a *small* PT1000-Sensor,
 using an ATMega328(Arduino) and an OLED-Module (connected via I2C) to view Reults in °C.
 
 A description + instructions of the MAX31865 Module from Adafruit we can read on their site:
@@ -18,4 +18,11 @@ So through SPI-Connection (4 cables + GND/V+) and short connections there are no
 The Arduino-Code from Adafruit is really simple, (see file "Adafruit_MAX31865_PT100-P1000-RTD-Sensor.ino"), using the Adafruit-Library:
 https://github.com/adafruit/Adafruit_MAX31865 (download).
 
-To-Do, Programming: Converting the Serial-Readings (measured values in °C) to the output via I2C on the proposed small OLED (128x64px), soon...
+Converting the Readings (measured values) for the small I2C-OLED-Output (128x64px):
+I choosed Temperature in °C to be the only value from interest. So for good readability I used a bigger and (IMHO) nicer font as the
+default fonts provided from Adafruit-GFX-library.
+Downloaded "FreeSansBold.ttf", modified with the (free) App "FontForge" using therein only the essential necessary letters: number
+44 to 67 from ASCII-Table) to minify RAM-consumption in the ATMega328.
+I compiled this resulted .ttf-font with "fontconvert.exe" to a usable Bitmap-font, named "FreeSnBld12pt7b.h" to use for the OLED.
+If you like it, feel free to use it without restrictions besides the licensing of the original font ("FreeSansBold.ttf"), which is
+(IMHO) a nicer Sans-Serif font as "Arial", "Verdana" "Tahoma" or "Helvetica"... ;-)
