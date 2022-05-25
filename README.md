@@ -1,4 +1,4 @@
-# Measuring Temperatures with PT1000-Sensor
+# Measuring Temperatures with PT1000-Sensor v1.1
 High accurate Temperature-measures (down to ±0.1°C) with Adafruits MAX31865 Module and a *small* PT1000-Sensor,
 using an ATMega328(Arduino) and an OLED-Module (connected via I2C) to view Reults in °C.
 
