@@ -3,6 +3,7 @@ High accurate Temperature-measures (down to ±0.1°C) with Adafruits MAX31865 Mo
 using an ATMega328(Arduino) and an OLED-Module (connected via I2C) to view Reults in °C.
 
 ![Schematic](https://github.com/nlohr1/Measuring-Temperatures-with-PT1000-Sensor/assets/49346586/62d7c389-c56b-4828-aea7-e65acba7bcae)
+![Case](https://github.com/nlohr1/Measuring-Temperatures-with-PT1000-Sensor/assets/49346586/382ec984-6be4-41f5-8f6b-a265396018ff)
 
 A description + instructions of the MAX31865 Module from Adafruit can be read on their site:
 https://learn.adafruit.com/adafruit-max31865-rtd-pt100-amplifier/
