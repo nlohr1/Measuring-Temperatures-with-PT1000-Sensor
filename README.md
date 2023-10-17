@@ -29,3 +29,16 @@ Downloaded "FreeSansBold.ttf", modified with the (free) App "FontForge" using th
 I compiled this resulted .ttf-font with "fontconvert.exe" to a usable Bitmap-font, named "FreeSnBld12pt7b.h" to use for the OLED.
 If you like it, feel free to use it without restrictions besides the licensing of the original font ("FreeSansBold.ttf"), which is
 (IMHO) a nicer Sans-Serif font on a small OLED as used.
+
+## Measuring alternative with analog Amplifier
+For anyone who prefers a more traditional method, amplifying measured voltages with an Analog-Amplifier in combination with (my) preferred
+PT1000-Sensor-Type, the alternative (for shorter wires) is to use a Differentiation Amplifier, so also this method may cancel Offset-Voltages
+and Noises. I used an ADS1115 SMD-IC as amplifier in combination with a TL431-LDO (SMD-IC), which provides the stabilized 1,000V reference-voltage
+through a following Current/Voltage OpAmp (LMV321) network to one of the two Input-Pins of the ADS1115-Amplifier, therefore providing this
+high-stablizized voltage as 1,000 milliAmpere to the PT-1000 Sensor, beeing capable to output highly reliable (reference-)values - with the
+same principle as above through I²C-wires to the Arduino.
+
+With two identical PT1000-Sensors (and translating-methods as described), both attached together it is relatively clear that errors are minimized reliably - *if* both
+Sensors also are coupled together with Thermal paste inside a heated-pipe (⇒ as "thermocouple"-pipe, turned with the lathe from a 1/4"-Cu-Pipe
+as soldering-tip-attachment "micro-oven") – and if both values finally are displaying nearly the same or similar values on the temperature-coordinate.
+Attached a schematic to turn on the lathe with a 1/4"-Cu-pipe (min. 50mm length, to obtain a 35mm-pipe).
